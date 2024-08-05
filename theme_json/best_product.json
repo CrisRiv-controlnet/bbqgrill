@@ -1,0 +1,60 @@
+{
+    "section_name": "Best - Product",
+    "section_slug": "best_product",
+    "unique_section_slug": "best_product",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": 1,
+    "section":{
+        "title":{
+            "lable" : "Best Product Title",
+            "slug" :  "best_product_titel",
+            "text" : "Our Loved category",
+            "type" : "text",
+            "placeholder" : "Please enter here.."
+        },
+        "button":{
+            "lable" : "Button",
+            "slug" :  "best_product_button",
+            "text" : "Show more products",
+            "type" : "text",
+            "placeholder" : "Please enter here.."
+        },
+        "button_second":{
+            "lable" : "Button Second",
+            "slug" :  "best_product_button_second",
+            "text" : "Go to catrgory",
+            "type" : "text",
+            "placeholder" : "Please enter here.."
+        },
+        "sub_title":{
+            "lable" : " Sub Title",
+            "slug" :  "best_product_subtitle",
+            "text" : "Butchery",
+            "type" : "text",
+            "placeholder" : "Please enter here.."
+        },
+        "description":{
+            "lable" : "Description",
+            "slug" :  "best_product_description",
+            "text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "type" : "textarea",
+            "placeholder" : "Please enter here.."
+        },
+        "sub_description":{
+            "lable" : " Sub Description",
+            "slug" :  "best_product_sub_description",
+            "text" : "They're made from botanically pure ingredients, so you can feel good about eating them. Plus, they're really nutritious, so you can feel good too. The best part is that they're all vegan and gluten-free, so you can have them any time of day. So go on and make yourself a bowl of these healthy and delicious fruits & vegetables today!",
+            "type" : "textarea",
+            "placeholder" : "Please enter here.."
+        },
+        "image":{
+            "lable" : "Image",
+            "slug" :  "best_product_image",
+            "text" : "themes/bbqgrill/assets/images/img1.png",
+            "image" : "themes/bbqgrill/assets/images/img1.png",
+            "type" : "file",
+            "placeholder" : "Please enter here.."
+        }
+    }
+}

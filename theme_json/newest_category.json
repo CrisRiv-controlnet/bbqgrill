@@ -1,0 +1,31 @@
+{
+    "section_name": "Newest - Category",
+    "section_slug": "newest_category",
+    "unique_section_slug": "newest_category",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": 2,
+    "section":{
+        "button":{
+            "lable" : "Button",
+            "slug" :  "newest_category_button",
+            "text" : ["Show products", "Show products"],
+            "type" : "button",
+            "placeholder" : "Please enter here.."
+        },
+        "description":{
+            "lable" : "Description",
+            "slug" :  "newest_category_description",
+            "text" : ["Discover the natural goodness of Burdock Roots, a powerful herbal remedy that promotes overall wellness. With its rich earthy flavor and numerous health benefits, Burdock Roots are a must-have addition to your daily routine.","Discover the natural goodness of Burdock Roots, a powerful herbal remedy that promotes overall wellness. With its rich earthy flavor and numerous health benefits, Burdock Roots are a must-have addition to your daily routine."],
+            "type" : "text",
+            "placeholder" : "Please enter here.."
+        }, "image":{
+            "lable" : "Image",
+            "slug" :  "newest_category_image",
+            "text" : ["themes/bbqgrill/assets/images/product.png","themes/bbqgrill/assets/images/product1.png"],
+            "image": ["themes/bbqgrill/assets/images/product.png","themes/bbqgrill/assets/images/product1.png"],
+            "type" : "file",
+            "placeholder" : "Please select file"
+        }
+    }
+}

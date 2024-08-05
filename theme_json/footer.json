@@ -1,0 +1,79 @@
+{
+    "section_name": "Footer - Section",
+    "section_slug": "footer",
+    "unique_section_slug": "footer",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": 1,
+    "section": {
+        "description": {
+            "lable": "Footer Section Description",
+            "slug": "footer_description",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "type": "textarea",
+            "placeholder": "Please enter here.."
+        },
+        "footer_link": {
+            "lable": "Footer Links",
+            "slug": "footer_links",
+            "text": "Footer Links",
+            "type": "array",
+            "loop_number": 4,
+            "social_link": ["https://www.youtube.com/","https://www.facebook.com/","https://www.instagram.com/","https://www.twitter.com/"],
+            "social_icon": [
+                {
+                    "text": "themes/bbqgrill/assets/img/youtube.png",
+                    "image": "themes/bbqgrill/assets/img/youtube.png"
+                },
+                {
+                    "text": "themes/bbqgrill/assets/img/facebook.png",
+                    "image": "themes/bbqgrill/assets/img/facebook.png"
+                },
+                {
+                    "text": "themes/bbqgrill/assets/img/insta.png",
+                    "image": "themes/bbqgrill/assets/img/insta.png"
+                },
+                {
+                    "text": "themes/bbqgrill/assets/img/twitter.png",
+                    "image": "themes/bbqgrill/assets/img/twitter.png"
+                }
+            ]
+        },
+        "footer_menu_type": {
+            "lable": "Footer Menu Type",
+            "slug": "footer_menu_type",
+            "text": "footer_menu_bar",
+            "type": "array",
+            "loop_number": 2,
+            "footer_menu_ids": []
+        },
+        "title": {
+            "lable": "Subscribe Title",
+            "slug": "title",
+            "text": "<b> Subscribe newsletter and get -20% off</b>",
+            "type": "textarea",
+            "placeholder": "Please enter here.."
+        },
+        "sub_title": {
+            "lable": "Subscribe Sub Title",
+            "slug": "sub_title",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "type": "textarea",
+            "placeholder": "Please enter here.."
+        },
+        "sub_description": {
+            "lable": "Subscribe  Description",
+            "slug": "sub_description",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "type": "textarea",
+            "placeholder": "Please enter here.."
+        },
+        "copy_right": {
+            "lable": "Subscribe Copy right",
+            "slug": "copy_right",
+            "text": "© 2024 bbqgrill. All rights reserved",
+            "type": "textarea",
+            "placeholder": "Please enter here.."
+        }
+    }
+}
