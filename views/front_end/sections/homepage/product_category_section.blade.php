@@ -1,8 +1,5 @@
 <section class="padding-bottom padding-top bestseller-section" style="position: relative;@if(isset($option) && $option->is_hide == 1) opacity: 0.5; @else opacity: 1; @endif" data-index="{{ $option->order ?? '' }}" data-id="{{ $option->order ?? '' }}" data-value="{{ $option->id ?? '' }}" data-hide="{{ $option->is_hide ?? '' }}" data-section="{{ $option->section_name ?? '' }}"  data-store="{{ $option->store_id ?? '' }}" data-theme="{{ $option->theme_id ?? '' }}">
     <div class="custome_tool_bar"></div>
-    <div class="right-side-image" style="top: -15%;">
-        <img src="{{ asset('themes/'. $currentTheme .'/assets/images/d2.png') }}" alt="glasses">
-    </div>
     <div class="container">
         <div class="section-title d-flex align-items-center justify-content-between">
             <h2 class="title" id="{{ $section->product_category->section->title->slug ?? '' }}_preview">{!! $section->product_category->section->title->text ?? '' !!}</h2>
@@ -80,7 +77,7 @@
                                                     </div>
                                                 @endif
 
-                                                <button class="addtocart-btn btn   addcart-btn-globaly"
+                                                <button class="addtocart-btn btn addcart-btn-globaly"
                                                     tabindex="0" product_id="{{ $product->id }}"
                                                     variant_id="0" qty="1">
                                                     <span> {{ __('Add to cart') }} </span>

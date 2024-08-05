@@ -1,6 +1,6 @@
 
 
-<section class="padding-bottom today-discounts"tyle="position: relative;@if(isset($option) && $option->is_hide == 1) opacity: 0.5; @else opacity: 1; @endif" data-index="{{ $option->order ?? '' }}" data-id="{{ $option->order ?? '' }}" data-value="{{ $option->id ?? '' }}" data-hide="{{ $option->is_hide ?? '' }}" data-section="{{ $option->section_name ?? '' }}"  data-store="{{ $option->store_id ?? '' }}" data-theme="{{ $option->theme_id ?? '' }}">
+<section class="padding-bottom today-discounts padding-top"tyle="position: relative;@if(isset($option) && $option->is_hide == 1) opacity: 0.5; @else opacity: 1; @endif" data-index="{{ $option->order ?? '' }}" data-id="{{ $option->order ?? '' }}" data-value="{{ $option->id ?? '' }}" data-hide="{{ $option->is_hide ?? '' }}" data-section="{{ $option->section_name ?? '' }}"  data-store="{{ $option->store_id ?? '' }}" data-theme="{{ $option->theme_id ?? '' }}">
     <div class="custome_tool_bar"></div>
 
     <div class="container">
@@ -73,7 +73,7 @@
                                         <ins>{{ __('In Variant') }}</ins>
                                     </div>
                                 @endif
-                                <button class="addtocart-btn btn   addcart-btn-globaly" tabindex="0"
+                                <button class="addtocart-btn btn addcart-btn-globaly" tabindex="0"
                                     product_id="{{ $item->id }}"
                                     variant_id="0" qty="1">
                                     <span> {{ __('Add to cart') }} </span>

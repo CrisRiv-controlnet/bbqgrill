@@ -4,9 +4,6 @@
     data-hide="{{ $option->is_hide  }}" data-section="{{ $option->section_name  }}"
     data-store="{{ $option->store_id  }}" data-theme="{{ $option->theme_id }}">
     <div class="custome_tool_bar"></div>
-    <div class="right-side-image">
-        <img src="{{ asset('themes/'. $currentTheme .'/assets/images/d3.png') }}" alt="glasses">
-    </div>
     <div class="row no-gutters ">
         @foreach ($home_page_products as $key => $product)
 

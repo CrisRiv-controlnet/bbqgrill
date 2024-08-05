@@ -18,25 +18,22 @@
             "slug": "footer_links",
             "text": "Footer Links",
             "type": "array",
-            "loop_number": 4,
-            "social_link": ["https://www.youtube.com/","https://www.facebook.com/","https://www.instagram.com/","https://www.twitter.com/"],
+            "loop_number": 3,
+            "social_link": ["https://www.linkedin.com/","https://www.facebook.com/","https://www.instagram.com/"],
             "social_icon": [
                 {
-                    "text": "themes/bbqgrill/assets/img/youtube.png",
-                    "image": "themes/bbqgrill/assets/img/youtube.png"
+                    "text": "themes/bbqgrill/assets/images/linkedin.png",
+                    "image": "themes/bbqgrill/assets/images/linkedin.png"
                 },
                 {
-                    "text": "themes/bbqgrill/assets/img/facebook.png",
-                    "image": "themes/bbqgrill/assets/img/facebook.png"
+                    "text": "themes/bbqgrill/assets/images/facebook.png",
+                    "image": "themes/bbqgrill/assets/images/facebook.png"
                 },
                 {
-                    "text": "themes/bbqgrill/assets/img/insta.png",
-                    "image": "themes/bbqgrill/assets/img/insta.png"
-                },
-                {
-                    "text": "themes/bbqgrill/assets/img/twitter.png",
-                    "image": "themes/bbqgrill/assets/img/twitter.png"
+                    "text": "themes/bbqgrill/assets/images/instagram.png",
+                    "image": "themes/bbqgrill/assets/images/instagram.png"
                 }
+
             ]
         },
         "footer_menu_type": {

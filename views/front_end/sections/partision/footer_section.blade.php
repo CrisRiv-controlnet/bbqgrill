@@ -29,6 +29,7 @@
                                     <li>
                                         <a href="{{ $section->footer->section->footer_link->social_link->{$i} ?? '#' }}"
                                             target="_blank" id="social_link_{{ $i }}">
+
                                             <img src="{{ get_file($section->footer->section->footer_link->social_icon->{$i}->image ?? 'themes/' . $currentTheme . '/assets/images/youtube.svg', $currentTheme) }}"
                                                 class="{{ 'social_icon_' . $i . '_preview' }}" alt="icon"
                                                 id="social_icon_{{ $i }}">
